@@ -1,3 +1,32 @@
 {
-  "foo": "bar"
+   "@context":[
+      "https://w3.org/ns/did/v1",
+      "https://w3id.org/security/suites/jws-2020/v1"
+   ],
+   "id":"did:web:joecris.github.io:didweb",
+   "publicKey":[
+      {
+         "id":"did:web:joecris.github.io:didweb#z12KnzeE",
+         "controller":"did:web:joecris.github.io:didweb",
+         "type":"JsonWebKey2020",
+         "publicKeyJwk":{
+            "kty":"EC",
+            "crv":"P-256",
+            "x":"gh4YkYuqsSVEE6egGGNw0HSsNUP6FaY6vdnC6z6scDc",
+            "y":"ayAq2aXyQRhnXyGMv6Q4JakDr-oy_Dt_ne-ENBU0Z44"
+         }
+      }
+   ],
+   "authentication":[
+      "did:web:joecris.github.io:didweb#z12KnzeE"
+   ],
+   "assertionMethod":[
+      "did:web:joecris.github.io:didweb#z12KnzeE"
+   ],
+   "capabilityDelegation":[
+      "did:web:joecris.github.io:didweb#z12KnzeE"
+   ],
+   "capabilityInvocation":[
+      "did:web:joecris.github.io:didweb#z12KnzeE"
+   ]
 }
